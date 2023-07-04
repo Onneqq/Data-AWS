@@ -8,7 +8,7 @@ const s3 = new aws.S3({ apiVersion: "2006-03-01" });
 
 // Exports the handler function as the entry point for the Lambda function
 exports.handler = async (event) => {
-  const bucketName = "locationdata93";
+  const bucketName = "";
   const key = "data.json";
 
   // Set parameters for S3 getObject call
